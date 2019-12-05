@@ -1,8 +1,4 @@
-include $(call all-subdir-makefiles)
-
 LOCAL_PATH := $(call my-dir)
-
-# Gms Packages
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CalculatorGooglePrebuilt

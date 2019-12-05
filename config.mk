@@ -1,4 +1,5 @@
-# Gms Packages
+LOCAL_PATH := $(call my-dir)
+include $(call all-makefiles-under,$(LOCAL_PATH))
 
 PRODUCT_PACKAGES += \
     CalculatorGooglePrebuilt \
