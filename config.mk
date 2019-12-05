@@ -9,6 +9,7 @@ PRODUCT_PACKAGES += \
     LatinIMEGooglePrebuilt \
     PrebuiltDeskClockGoogle \
     PrebuiltExchange3Google \
+    SoundPickerPrebuilt \
     TranslatePrebuilt
 
 PRODUCT_COPY_FILES += \
