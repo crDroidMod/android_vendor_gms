@@ -10,7 +10,8 @@ PRODUCT_PACKAGES += \
     PrebuiltDeskClockGoogle \
     PrebuiltExchange3Google \
     SoundPickerPrebuilt \
-    TranslatePrebuilt
+    TranslatePrebuilt \
+    WebViewGoogle
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files, *, $(VENDOR_PATH)/system/usr/srec/en-US, system/usr/srec)
