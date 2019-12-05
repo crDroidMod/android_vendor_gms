@@ -1,5 +1,3 @@
-VENDOR_PATH := vendor/gms
-
 # Gms Packages
 
 PRODUCT_PACKAGES += \
@@ -12,6 +10,3 @@ PRODUCT_PACKAGES += \
     SoundPickerPrebuilt \
     TranslatePrebuilt \
     WebViewGoogle
-
-PRODUCT_COPY_FILES += \
-    $(call find-copy-subdir-files, *, $(VENDOR_PATH)/system/usr/srec/en-US, system/usr/srec)
