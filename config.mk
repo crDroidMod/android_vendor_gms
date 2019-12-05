@@ -5,6 +5,7 @@ VENDOR_PATH := vendor/gms
 PRODUCT_PACKAGES += \
     CalculatorGooglePrebuilt \
     CalendarGooglePrebuilt \
+    GoogleTTS \
     PrebuiltDeskClockGoogle \
     PrebuiltExchange3Google \
     TranslatePrebuilt
