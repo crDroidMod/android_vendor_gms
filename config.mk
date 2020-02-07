@@ -4,7 +4,6 @@ include $(call all-makefiles-under,$(LOCAL_PATH))
 PRODUCT_PACKAGES += \
     CalculatorGooglePrebuilt \
     CalendarGooglePrebuilt \
-    GoogleTTS \
     LatinIMEGooglePrebuilt \
     PrebuiltDeskClockGoogle \
     PrebuiltExchange3Google \
