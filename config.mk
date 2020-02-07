@@ -7,6 +7,5 @@ PRODUCT_PACKAGES += \
     LatinIMEGooglePrebuilt \
     PrebuiltDeskClockGoogle \
     PrebuiltExchange3Google \
-    SoundPickerPrebuilt \
     TranslatePrebuilt \
     WebViewGoogle
