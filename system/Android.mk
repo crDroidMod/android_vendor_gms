@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CalculatorGooglePrebuilt
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := app/CalculatorGooglePrebuilt/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -12,7 +12,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CalendarGooglePrebuilt
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := app/CalendarGooglePrebuilt/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -22,7 +22,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := LatinIMEGooglePrebuilt
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := app/LatinIMEGooglePrebuilt/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -32,7 +32,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := PrebuiltDeskClockGoogle
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := app/PrebuiltDeskClockGoogle/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -42,7 +42,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := PrebuiltExchange3Google
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := app/PrebuiltExchange3Google/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -52,7 +52,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TranslatePrebuilt
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := app/TranslatePrebuilt/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
@@ -61,7 +61,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := WebViewGoogle
-LOCAL_SRC_FILES := app/$(LOCAL_MODULE).apk
+LOCAL_SRC_FILES := app/WebViewGoogle/$(LOCAL_MODULE).apk
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 LOCAL_CERTIFICATE := PRESIGNED
